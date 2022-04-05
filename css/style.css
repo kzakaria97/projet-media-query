@@ -1,0 +1,64 @@
+@media screen and (min-width: 1024px){
+    .principal{
+        margin-left: 15%;
+        margin-right: 15%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+    }
+    section{
+        background-color: black;
+        height: 100px;
+    }
+    .entete{
+        display: flex;
+        justify-content: end;
+    }
+    .click{
+        display: flex;
+        justify-content: end;
+    }
+    .second{
+        width: 100%;
+    }
+    .trois{
+        height: 620px;
+        background-color: rgb(66, 65, 72);
+    }
+    .package{
+        display: flex;
+        justify-content: end;
+    }
+    .trois-etape{
+        color: white;
+        
+    }
+    .deux{
+        color: white;
+    }
+    .quatre{
+        height: 620px;
+        background-color: white;
+    }
+    .outils{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 150px;
+    }
+    .reseau{
+        height: 225px;
+    }
+    .btn-quatre{
+        background-color: rgb(66, 65, 72);
+    }
+    footer{
+        background-color: rgb(66, 65, 72);
+        height: 250px;
+        color: white;
+    }
+    .etape-footer{
+        height: 75px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    
+}
