@@ -1,73 +1,141 @@
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .principal{
-        margin-left: 15%;
-        margin-right: 15%;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
-    }
-    section{
-        background-color: black;
-        height: 100px;
-    }
-    .entete{
-        display: flex;
-        justify-content: end;
-    }
-    .icon{
-        height: 50px;
-    }
-    .click{
-        display: flex;
-        justify-content: end;
-        font-size: 13px;
-    }
-    .second{
-        width: 100%;
-    }
-    .trois{
-        height: 680px;
-        background-color: rgb(66, 65, 72);
-    }
-    .package{
-        display: flex;
-        position: relative;
-        left: 40%;
-    }
-    .trois-etape{
-        color: white;
-        
-    }
-    .deux{
-        color: white;
-    }
-    .quatre{
-        height: 750px;
-        background-color: white;
-    }
-    .outils{
-        display: flex;
-        position: relative;
-        left: 50%;
-        height: 150px;
-    }
-    .com{
-        position: relative;
-        left: 27%;
-    }
-    .reseau{
-        height: 225px;
-    }
-    .btn-quatre{
-        background-color: rgb(66, 65, 72);
-        color: white;
-    }
-    footer{
-        background-color: rgb(66, 65, 72);
-        height: 250px;
-        color: white;
-    }
-    .etape-footer{
-        height: 48px;
-    }
+       margin-left: 15%;
+       margin-right: 15%;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+   }
+   section{
+       background-color: black;
+       height: 60px;
+   }
+   .entete{
+       display: none;
+       justify-content: end;
+   }
+   .logo-horiz{
+       height: 35px;
+   }
+   .icon{
+       height: 25px;
+   }
+   .click{
+       display: flex;
+       justify-content: end;
+       font-size: 6px;
+   }
+   .second{
+       width: 100%;
+   }
+   .titre-2{
+       font-size: 15px;
+   }
+   .sous-titre-2{
+       font-size: 10px;
+   }
+   .trois{
+       height: 400px;
+       background-color: rgb(66, 65, 72);
+   }
+   .package{
+       display: flex;
+       position: relative;
+       left: 30%;
+       top: 10%;
+       height: 45px;
+   }
+   .titre-etape{
+       font-size: 15px;
+   }
+   .logo-etape{
+       height: 40px;
+   }
+   .trois-etape{
+       color: white; 
+   }
+   .deux{
+       color: white;
+       font-size: 7px;
+   }
+   .quatre{
+       height: 210px;
+       background-color: white;
+   }
+   .redi-id{
+       position: relative;
+       bottom: 35px;
+   }
+   .outils{
+       display: flex;
+       position: relative;
+       left: 50%;
+       height: 35px;
+   }
+   .com{
+       position: relative;
+       left: 27%;
+       font-size: 10px;
+   }
+   .identite{
+       font-size: 8px;
+   }
+   .logo-id1{
+    height: 30px;
+    position: relative;
+    bottom: 7px;
+}
+   .logo-id{
+       height: 30px;
+   }
+   .reseau{
+       height: 30px;
+   }
+   .para-id{
+       font-size: 6px;
+   }
+   .para-id1{
+    font-size: 6px;
+    position: relative;
+    bottom: 9px;
+}
+   .btn-quatre{
+       background-color: rgb(66, 65, 72);
+       color: white;
+       height: 15px;
+       font-size: 5px;
+       position: relative;
+       bottom: 41px;
+   }
+   .btn-quatre1{
+    background-color: rgb(66, 65, 72);
+    color: white;
+    height: 15px;
+    font-size: 5px;
+    position: relative;
+    bottom: 50px;
+}
+.redi-footer{
+    position: relative;
+    bottom: 50px;
+}
+   footer{
+       background-color: rgb(66, 65, 72);
+       height: 200px;
+       color: white;
+   }
+   h5{
+       font-size: 8px;
+   }
+   .etape-footer{
+       display: flex;
+       height: 25px;
+   }
+   .etape-footer1{
+    display: flex;
+    height: 25px;
+    position: relative;
+    bottom: 24px;
+    left: 10px;
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .principal{
@@ -148,10 +216,16 @@
     .logo-id{
         height: 70px;
     }
+    .logo-id1{
+        height: 70px;
+    }
     .reseau{
         height: 70px;
     }
     .para-id{
+        font-size: 10px;
+    }
+    .para-id1{
         font-size: 10px;
     }
     .btn-quatre{
@@ -159,6 +233,12 @@
         color: white;
         height: 25px;
     }
+    .btn-quatre1{
+        color: white;
+        height: 25px;
+        background-color:  rgb(66, 65, 72);
+    }
+    
     footer{
         background-color: rgb(66, 65, 72);
         height: 200px;
@@ -166,5 +246,86 @@
     }
     .etape-footer{
         height: 28px;
+    }
+    .etape-footer1{
+        height: 25px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .principal{
+        margin-left: 15%;
+        margin-right: 15%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+    }
+    section{
+        background-color: black;
+        height: 100px;
+    }
+    .entete{
+        display: flex;
+        justify-content: end;
+    }
+    .icon{
+        height: 50px;
+    }
+    .click{
+        display: flex;
+        justify-content: end;
+        font-size: 13px;
+    }
+    .second{
+        width: 100%;
+    }
+    .trois{
+        height: 680px;
+        background-color: rgb(66, 65, 72);
+    }
+    .package{
+        display: flex;
+        position: relative;
+        left: 40%;
+    }
+    .trois-etape{
+        color: white;
+        
+    }
+    .deux{
+        color: white;
+    }
+    .quatre{
+        height: 750px;
+        background-color: white;
+    }
+    .outils{
+        display: flex;
+        position: relative;
+        left: 50%;
+        height: 150px;
+    }
+    .com{
+        position: relative;
+        left: 27%;
+    }
+    .reseau{
+        height: 225px;
+    }
+    .btn-quatre{
+        background-color: rgb(66, 65, 72);
+        color: white;
+    }
+    .btn-quatre1{
+        background-color: rgb(66, 65, 72);
+        color: white;
+    }
+    footer{
+        background-color: rgb(66, 65, 72);
+        height: 250px;
+        color: white;
+    }
+    .etape-footer{
+        height: 46px;
+    }
+    .etape-footer1{
+        height: 46px;
     }
 }
