@@ -25,7 +25,8 @@
     }
     .package{
         display: flex;
-        justify-content: end;
+        position: relative;
+        left: 40%;
     }
     .trois-etape{
         color: white;
@@ -40,15 +41,20 @@
     }
     .outils{
         display: flex;
-        justify-content: end;
-        align-items: center;
+        position: relative;
+        left: 50%;
         height: 150px;
+    }
+    .com{
+        position: relative;
+        left: 27%;
     }
     .reseau{
         height: 225px;
     }
     .btn-quatre{
         background-color: rgb(66, 65, 72);
+        color: white;
     }
     footer{
         background-color: rgb(66, 65, 72);
@@ -58,7 +64,4 @@
     .etape-footer{
         height: 75px;
     }
-}
-@media screen and (min-width: 600px) and (max-width: 1024px){
-    
 }
