@@ -12,15 +12,19 @@
         display: flex;
         justify-content: end;
     }
+    .icon{
+        height: 50px;
+    }
     .click{
         display: flex;
         justify-content: end;
+        font-size: 13px;
     }
     .second{
         width: 100%;
     }
     .trois{
-        height: 620px;
+        height: 680px;
         background-color: rgb(66, 65, 72);
     }
     .package{
@@ -36,7 +40,7 @@
         color: white;
     }
     .quatre{
-        height: 620px;
+        height: 750px;
         background-color: white;
     }
     .outils{
@@ -62,6 +66,105 @@
         color: white;
     }
     .etape-footer{
+        height: 48px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .principal{
+        margin-left: 15%;
+        margin-right: 15%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+    }
+    section{
+        background-color: black;
+        height: 100px;
+    }
+    .entete{
+        display: flex;
+        justify-content: end;
+    }
+    .logo-horiz{
+        height: 35px;
+    }
+    .icon{
+        height: 25px;
+    }
+    .click{
+        display: flex;
+        justify-content: end;
+        font-size: 8.3px;
+    }
+    .second{
+        width: 100%;
+    }
+    .titre-2{
+        font-size: 20px;
+    }
+    .sous-titre-2{
+        font-size: 15px;
+    }
+    .trois{
+        height: 380px;
+        background-color: rgb(66, 65, 72);
+    }
+    .package{
+        display: flex;
+        position: relative;
+        left: 30%;
+        top: 10%;
         height: 75px;
+    }
+    .titre-etape{
+        font-size: 15px;
+    }
+    .logo-etape{
+        height: 80px;
+    }
+    .trois-etape{
+        color: white; 
+    }
+    .deux{
+        color: white;
+        font-size: 10px;
+    }
+    .quatre{
+        height: 350px;
+        background-color: white;
+    }
+    .outils{
+        display: flex;
+        position: relative;
+        left: 50%;
+        height: 70px;
+    }
+    .com{
+        position: relative;
+        left: 27%;
+        font-size: 20px;
+    }
+    .identite{
+        font-size: 15px;
+    }
+    .logo-id{
+        height: 70px;
+    }
+    .reseau{
+        height: 70px;
+    }
+    .para-id{
+        font-size: 10px;
+    }
+    .btn-quatre{
+        background-color: rgb(66, 65, 72);
+        color: white;
+        height: 25px;
+    }
+    footer{
+        background-color: rgb(66, 65, 72);
+        height: 200px;
+        color: white;
+    }
+    .etape-footer{
+        height: 28px;
     }
 }
